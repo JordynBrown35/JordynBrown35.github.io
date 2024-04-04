@@ -1,154 +1,127 @@
 <html>
 
 <head>
-    <title>MIS 3033 HW8 ExamPrac</title>
-
+    <title>MIS Exam Practice</title>
     <style>
-        #maindiv {
-            width: 1200px;
-            margin-left: auto;
-            margin-right: auto;
-           /* background-color: aliceblue;*/
-        }
-
-        .title1 {
-            font-weight: bold;
-            font-size: 30px;
-        }
-
-        #leftdiv {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 400px;
-        }
-
-        #div2 
+        #maindiv
         {
-            display: flex;
-            flex-direction: row;
+            width:1600px;
+            margin-left:auto;
+            margin-right:auto;
         }
-
-        #rightdiv
+        #header
         {
-            width:800px;
+            display:flex;
+            flex-direction:row;
+
         }
 
-        #downdiv
+        #content1
+        {
+            display:flex;
+            flex-direction:row;
+
+        }
+
+        #content2
         {
             display:flex;
             flex-direction:row;
         }
 
-        #div4
+        #footer
         {
             display:flex;
             flex-direction:row;
-            justify-content:center;
-            align-items:center;
         }
-
     </style>
 </head>
 
 <body>
     <div id="maindiv">
-
-        <div id="div1">
-            <span style="color:dodgerblue;font-size:20pt;font-weight:bold;">Jordyn Brown's Website</span>
-        </div>
-
-        <div id="div2">
-            <div id="leftdiv">
-                <div>
-                    <img style="border-radius:50%;width:200px;" src="static/head2.png" />
-                </div>
-                <div style="font-size:30px;">
-                    Jordyn Brown
-                </div>
-                <div style="font-size:20px;color:dimgray;">
-                    Student in Management Information Systems
-                </div>
-                <div style="font-size:20px;color:dimgray;">
-                    The University of Oklahoma
-                </div>
-                <div>
-                    <a target="_blank" href="mailto:jordyn.o.brown-1@ou.edu">
-                        <img src="email.png" style="width:30px;" />
-                    </a>
-
-                    <a target="_blank" href="https://www.linkedin.com/">
-                        <img src="linkedin.png" style="width:30px;" />
-                    </a>
-
-                    <a target="_blank" href="https://twitter.com/">
-                        <img src="twitter.png" style="width:30px;" />
-                    </a>
-
-                    <a target="_blank" href="https://www.instagram.com">
-                        <img src="instagram.png" style="width:30px;" />
-                    </a>
-
-                </div>
+        <div id="header">
+            <div style="width:800px;" id="leftdiv">
+                <img style="width:800px;" src="mis.png"/>
             </div>
-
-            <div id="rightdiv">
-                <div id="updiv">
-                <span class="title1">Biography</span> <br />
-
-                I am a Senior student in Management Information Systems at The University of Oklahoma. I am on the 2022/2023 job market.<br /> <br/>
-
-                My study focuses on data analytics and I am good at programming (Console, Desktop and Web Applications) and databases management.<br /><br/>
-
-                For more information, please refer to my
-                <a href="CV.pdf" target="_blank">CV.</a><br/><br/>
-                 </div>
-
-                <div id="downdiv">
-                    <div id="Idiv">
-                        <span class="title1">Interests</span>
-                        <ol>
-                            <li>Analyst/Programmer</li>
-                            <li>Business Analyst</li>
-                            <li>Database Administration</li>
-                            <li>Web Developer</li>
-                            <li>Data Scientist</li>
-                        </ol>
-
-                    </div>
-
-                    <div id="Ediv">
-                        <span class="title1">Education</span>
-
-                        <ul>
-                            <li>
-                                M.S. in Management Information Systems, 2024 <br/>
-                                The University of Oklahoma
-                            </li>
-                            <li>
-                                B.E. in Management Information Systems, 2022 <br/>
-                                The University of Oklahoma
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div style="color:blue;width:800px;font-size:40px;display:flex;flex-direction:column;justify-content:center;" id="right div">
+                <a href="Link: https://www.ou.edu/price/mis" target="_blank">OU MIS</a>
             </div>
         </div>
 
-        <div id="div3" style="background-color:#ededed;">
-            <span class="title1">Recent News</span> 
+        <div id="content1">
+            <div style="width:400px;" id="leftdiv">
+                <br/><br/><span style="color:darkred;">RECENT NEWS</span>
 
-            <ul>
-                <li>Learning C# Web Application Design</li>
-                <li>Learning C# EF</li>
-            </ul>
+                <ul style="color:blue;">
+                    <li>The graduate program was ranked, once again, in the top 25 Business Analytics programs in the nation by TFE times</li>
+                    <li>The Center for MIS Studies Spring 2022 retreat will be held on April 7th, 2022.</li>
+                    <li>MIS Division’s undergraduate degree earned the No 1 spot in the Top 15 Bachelor’s Degrees in Management Information Systems in 2021 by Best Value Schools.</li>
+                </ul>
+  
+            </div>
+            <div id="middiv">
+                <img style="width:400px;" src="price.jpg"/>
+            </div>
+            <div style="width:800px;" id="rightdiv">
+                <span style="color:darkred;">What is Management Information Systems?</span><br/><br/>
+
+                Management Information Systems (MIS) is the application of information technology to meet organizational and managerial requirements that can result in business value. Hence, MIS students are trained to use computer technology to help businesses get the right information to the right people at the right time. In the undergraduate program, students learn how to collect, manipulate, transform, and present data to support organizational needs, including presentation on company websites. They also learn about cybersecurity and how to protect organizational data.<br/><br/>
+
+                The Business Analytics graduate program helps students learn to analyze huge volumes and a variety of data, including those available through social media, through new tools and methods, such as visualization and machine learning, in order to generate business insights. In general, be it the undergraduate or graduate program, MIS students are trained to become business detectives with good analytical, business, communication, and problem-solving skills in a computer-based environment.<br/><br/>
+            </div>
         </div>
 
-        <div id="div4" style="background-color:#faf7f7;color:dimgrey;">
-            Designed and Published by Jordyn Brown
+        <div id="content2">
+            <div style="width:400px;" id="Bdiv">
+
+            </div>
+            <div style="width:400px;" id="Cdiv">
+                <span style="color:darkred;">What kind of career can I pursue?</span>
+                
+                <ol>
+                    <li>Airlines/Car Rental Firms</li>
+                    <li>Insurance companies</li>
+                    <li>Banks</li>
+                    <li>Colleges and universities</li>
+                    <li>Government agencies</li>
+                    <li>Consulting Firms</li>
+                    <li>Energy Companies</li>
+                </ol>
+
+            </div>
+            <div style="width:800px;" id="Rdiv">
+                <span style="color:darkred;">What have our OU graduates done with their Management Information Systems degree?</span>
+               
+                <ul>
+                    <li>
+                        <span style="color:darkred;border-style:solid;">Analyst/Programmer</span>
+                    </li>
+                    <li>Business Analyst</li>
+                    <li>Database Administration</li>
+                    <li>Information Security Analyst</li>
+                    <li>Network Administration</li>
+                    <li>IT Auditor</li>
+                    <li>Web Developer</li>
+                    <li>
+                        <span style="border-style:dashed;background-color:dimgrey;">Data Scientists</span>
+                    </li>
+                    <li>......</li>
+                </ul>         
+                
+            </div>
         </div>
 
+        <div style="background-color:gray;" id="footer">
+            <div id="Ldiv">
+                <img style="height:70px;" src="ou.png"/>
+            </div>
+            <div id="Rdiv">
+                Management Information Systems<br/>
+                307 W. Brooks, Adams Hall, Room 3230<br/>
+                Norman, Oklahoma 73019<br/>
+                (405) 325-5721
+            </div>
+        </div>
     </div>
 </body>
 
