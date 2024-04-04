@@ -4,20 +4,132 @@
     <title>MIS 3033 Exam 2 Spring 2024 [Exam code] Jordyn Brown</title>
     <link href="static/img/head2.png" rel="icon"/>
     <link rel="stylesheet" href="static/site.css"/>
+
+    <style>
+        #maindiv
+        {
+            width:800px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        #Topdiv
+        {
+            display:flex;
+            flex-direction:row;
+            justify-content:end;
+            align-items:center;
+        }
+
+        #headerdiv
+        {
+            display:flex;
+            flex-direction:row;
+            justify-content:start;
+            align-items:center;
+        }
+
+        #content1
+        {
+            display:flex;
+            flex-direction:row;
+        }
+
+        #rightdiv
+        {
+            display:flex;
+            flex-direction:column;
+        }
+
+        #footer
+        {
+            display:flex;
+            flex-direction:row;
+            justify-content:end;
+            align-items:center;
+        }
+
+    </style>
 </head>
 
 <body>
-    [Exam code]
-    <img src="static/img/a.svg" style="height:50px;"/>
-    <img src="static/img/b.svg" style="height:50px;"/>
-    <img src="static/img/css.svg" style="height:50px;"/>
-    <img src="static/img/head1.png" style="height:50px;"/>
-    <img src="static/img/head2.png" style="height:50px;"/>
-    <img src="static/img/html.svg" style="height:50px;"/>
-    <img src="static/img/javascript.svg" style="height:50px;"/>
-    <img src="static/img/linkedin.png" style="height:50px;"/>
-    <img src="static/img/logo.svg" style="height:50px;"/>
-    <img src="static/img/sqlite.svg" style="height:50px;"/>
+
+    <div id="maindiv">
+        <div id="Topdiv">
+            <div style="width:200px;height:70px;border-style:solid;border-width:1px;border-color:lightgrey;border-radius:5px;display:flex;flex-direction:row;justify-content:center;align-items:center;">
+                MIS 3033 Exam 2<br />
+                Jordyn Brown
+            </div>
+            <div style="width: 200px; height: 70px; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px; display: flex; flex-direction: row; justify-content: center; align-items: center;margin-left:10px;">
+                [SKDZ]
+            </div>
+        </div>
+        <div style="border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px;" id="headerdiv">
+            <div id="imgdiv">
+                <img src="static/img/head2.png" style="height:60px;border-radius:50%;margin-left:20px;" />
+            </div>
+            <div style="margin-left:10px;" id="namediv">
+                Jordyn Brown<br />
+                MIS Student
+            </div>
+            <div id="linkedindiv">
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="static/img/linkedin.png" style="width:30px;margin-left:10px;" />
+                </a>
+            </div>
+        </div>
+        <div id="content1">
+            <div style="width: 280px; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px;" id="leftdiv">
+                <span style="background-color:lightskyblue;border-radius:5px;text-transform:uppercase;">recent news:</span>
+                <ul>
+                    <li>Learned C#</li>
+                    <li>Learned Entity Framework</li>
+                    <li>
+                        Learned <img style="height:40px;" src="static/img/sqlite.svg"/>
+                    </li>
+                </ul>
+            </div>
+            <div id="rightdiv">
+                <div style="width: 510px; height: 110px; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px;" id="upperdiv">
+                    <span style="background-color:lightskyblue;border-radius:5px;text-transform:uppercase;">about me:</span><br />
+                    I am a MIS student. I like programming and I am good at C#. I learned Entity Framework to Database Manipulations. I know HTML, CSS and I started to learn JavaScript. It is fun. Later I will learn C# .NET MVC dynamic web app development and web API development.<br /><br />
+                </div>
+                <!--break-->
+                <div style="width: 510px; height: 160px; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px;" id="lowerdiv">
+                    <div>
+                        <span style="background-color:lightskyblue;border-radius:5px;text-transform:uppercase;">achievements</span><br /><br/>
+                    </div>
+                    <div style="display:flex;flex-direction:row;justify-content:center;" id="imgdiv">
+                        <div style="display: flex; flex-direction: column; justify-content: center;align-items:center; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px;">
+                            <img src="static/img/html.svg" style="height: 100px; " />
+                            HTML
+                        </div>
+                        <div style="display:flex; flex-direction:column; justify-content: center;align-items:center; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px;">
+                            <img src="static/img/css.svg" style="height: 100px;" />
+                            CSS
+                        </div>
+                        
+                        <div style="display:flex; flex-direction:column; justify-content: center;align-items:center; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px;">
+                            <img src="static/img/javascript.svg" style="height: 100px;"/>
+                            JavaScript
+                        </div>
+                        
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        <div style="height: 60px; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 5px;" id="footer">
+            <div>
+                <span style="font-weight:bold;font-size:20px;color:grey;">Developed by Jordyn Brown for MIS 3033 Exam 2</span>
+            </div>
+            <div style="margin-left:30px;">
+                <img src="static/img/logo.svg" style="height:50px;" />
+            </div>
+        </div>
+    </div>
+
+  
 </body>
 
 </html>
